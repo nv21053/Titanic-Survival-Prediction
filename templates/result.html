@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Titanic Survival Prediction - Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .result-text {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .result-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+
+        .return-button {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .return-button a {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .return-button a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titanic Survival Prediction - Result</h1>
+    <div class="result">
+        <p class="result-text">Based on the provided information, the passenger is predicted to:</p>
+        <p class="result-value">{{ survived }}</p>
+    </div>
+    <div class="return-button">
+        <a href="/">Return to Main Page</a>
+    </div>
+</body>
+</html>
